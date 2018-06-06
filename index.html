@@ -1,28 +1,180 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
+<html lang=“en-US”>
+
+<head>
+  <title>Emily Chan – Design Portfolio</title>
+  <!-- <link rel="stylesheet" href="file:///Users/emilychan/Desktop/website/styles.css"> -->
+  <meta charset=“UTF-8”>
+  <link href='https://fonts.googleapis.com/css?family=Quattrocento Sans' rel='stylesheet'>
+
+  <style>
+
+    body {
+      background-color: white;
+      font-family: 'Quattrocento Sans';
+      font-size: 22px;
+      margin-top: 70px;
+      margin-bottom: 70px;
+      margin-right: 200px;
+      margin-left: 200px;
+      }
+
+    #header {
+      color: black;
+      font-weight: bold;
+      padding: 0;
+      letter-spacing: 3px;
+      font-size: 60px;
+      margin-bottom: 25px;
+    }
+
+    #avatar {
+    float: right;
+    margin-top: 50px;
+    margin-right: 30px;
+    border-radius: 50%;
+    }
+
+    .title {
+      margin-top: 100px;
+      font-size: 30px;
+      line-height: 1.5;
+      font-weight: bold;
+    }
+
+    .highlight {
+      color: #48EDAF;
+      font-size:30px;
+      line-height: 1.5;
+      font-weight: bold;
+    }
+
+    .main {
+      margin-top: 50px;
+      margin-right: 30px;
+      font-size: 20px;
+      line-height: 1.5;
+    }
+
+    img.projpic {
+      float: left;
+      margin-right: 50px;
+      max-width: 300px;
+    }
+
+<!--Includes projcategory, projtitle, main text, and button-->
+
+    .projdesc {
+      margin-top: -20px;
+    }
+
+    .projtitle {
+      color: black;
+      font-size:30px;
+      line-height: 1.5;
+      font-weight: bold;
+    }
+
+    .projcategory {
+      font-size: 15px;
+      color: #48EDAF;
+      padding: 0;
+    }
+
+    .button {
+    background-color: white;
+    border-style: solid;
+    border-color: #48EDAF;
+    color: #48EDAF;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+
+    .button:hover {
+    background-color: #48EDAF;
+    }
+
+    .project {
+      margin-top: 70px;
+    }
+
+  /* Add a black background color to the top navigation */
+    .topnav {
+      overflow: hidden;
+    }
+
+/* Style the links inside the navigation bar */
+  .topnav a {
+      color: black;
+      margin-right: 30px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 15px;
+  }
+
+/* Change the color of links on hover */
+  .topnav a:hover {
+      color: #48EDAF;
+  }
+
+/* Add a color to the active/current link */
+  .topnav a.active {
+      color: #48EDAF;
+
+  }
+      }
+  </style>
+
+</head>
+
+<body>
+
+  <h1 id="header">EMILY <span style="color: #48EDAF; font-size:60px" >CHAN</span></h1>
+  <div class="topnav">
+    <a class="active" href="file:///Users/emilychan/Desktop/website/index.html">HOME</a>
+    <a href="file:///Users/emilychan/Desktop/website/work.html">WORK</a>
+    <a href="file:///Users/emilychan/Desktop/website/aboutme.html">ABOUT</a>
+    <a href="file:///Users/emilychan/Desktop/website/resume.html">RESUME</a>
+    <a href="#about">OTHER PROJECTS</a>
+  </div>
+
+
+  <img id="avatar" src="file:///Users/emilychan/Desktop/propic/DSC_0022.JPG" style='float: left; height: 200px;'/>
+  <p class="main"><span class="highlight">Hi there!</span><br>My name's Emily and I'm an aspiring product designer studying Information
+  Science at Cornell University. My concentration is in UX Design but I'm also interested
+in graphic design, visual arts, and programming. </p>
+
+  <p class="title"> Check out some of my projects:</p>
+
+  <div class="project">
+    <img class="projpic" src="file:///Users/emilychan/Desktop/website/mockup1%20copy.png"/>
+    <p class="projdesc"><span class="projcategory">INTERFACE/EXPERIENCE DESIGN</span>
+      <br>
+      <span class="projtitle">Cornell CoursePlan</span>
+      <br>
+      <span class="main">A 4-year course planning webtool that I designed for my team at Big Red Hacks Spring 2018.</span>
+      <br>
+      <button class="button">READ MORE</button>
+    </p>
+  </div>
+
+  <div class="project">
+    <img class="projpic" src="file:///Users/emilychan/Desktop/website/Venmo-PYMNTS%20copy.jpg"/>
+    <p class="projdesc"><span class="projcategory">CASE STUDY</span>
+      <br>
+      <span class="projtitle">Venmo Feature Redesign</span>
+      <br>
+      <span class="main">A redesign of Venmo's user dashboard/profile.</span>
+      <br>
+      <button class="button">READ MORE</button>
+    </p>
+  </div>
+
+
+</body>
+
 </html>
+
